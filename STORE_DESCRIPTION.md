@@ -9,7 +9,9 @@ Transform your LAN party music experience with LAN Jukebox Extension! Seamlessly
 
 ### 🎵 What is LAN Jukebox?
 
-LAN Jukebox Extension works with the LAN Jukebox server (available on GitHub) to create a shared music queue for LAN parties, offices, or any gathering. Everyone can add songs, but only the host controls playback - perfect for keeping the party going!
+LAN Jukebox Extension works with the LAN Jukebox server to create a shared music queue for LAN parties, offices, or any gathering. Everyone can add songs, but only the host controls playback - perfect for keeping the party going!
+
+**Get the server:** https://github.com/[YOUR_USERNAME]/lan-jukebox
 
 ### ✨ Key Features
 
@@ -84,9 +86,13 @@ See our full Privacy Policy for details.
 
 This extension is fully open source! Review the code, contribute features, or report issues on GitHub.
 
+**Extension repository:** https://github.com/[YOUR_USERNAME]/lan-jukebox-extension
+**Server repository:** https://github.com/[YOUR_USERNAME]/lan-jukebox
+
 ### 🆘 Support
 
-Having trouble? Check the README for troubleshooting tips or open an issue on GitHub.
+Having trouble? Check the README for troubleshooting tips or open an issue on GitHub:
+https://github.com/[YOUR_USERNAME]/lan-jukebox-extension/issues
 
 ### 📝 Changelog
 
@@ -100,6 +106,8 @@ Having trouble? Check the README for troubleshooting tips or open an issue on Gi
 
 ---
 
-**Note:** This extension requires a separate LAN Jukebox server to function. The server is free and open source - find it on GitHub!
+**Note:** This extension requires a separate LAN Jukebox server to function. The server is free and open source!
+
+**Download the server:** https://github.com/[YOUR_USERNAME]/lan-jukebox
 
 Ready to upgrade your LAN party music experience? Install now and start building the perfect playlist! 🎶

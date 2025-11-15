@@ -67,12 +67,16 @@ If this privacy policy changes, the "Last Updated" date will be revised. Continu
 ## Contact
 
 For questions about this privacy policy, please open an issue on the GitHub repository:
-https://github.com/[YOUR_USERNAME]/lan-jukebox-extension
+
+**Extension:** https://github.com/[YOUR_USERNAME]/lan-jukebox-extension
+**Server:** https://github.com/[YOUR_USERNAME]/lan-jukebox
 
 ## Open Source
 
 This Extension is open source. You can review the complete source code to verify these privacy claims:
-https://github.com/[YOUR_USERNAME]/lan-jukebox-extension
+
+**Extension source:** https://github.com/[YOUR_USERNAME]/lan-jukebox-extension
+**Server source:** https://github.com/[YOUR_USERNAME]/lan-jukebox
 
 ---
 

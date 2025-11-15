@@ -16,7 +16,20 @@ This guide will help you publish the LAN Jukebox Extension to the Chrome Web Sto
 4. Pay the $5 registration fee (one-time, lifetime)
 5. Wait for payment confirmation
 
-## Step 2: Prepare Your Submission
+## Step 2: Setup GitHub Repositories (Required)
+
+**IMPORTANT:** Before submitting to Chrome Web Store, you must:
+
+1. Create GitHub repositories for both the extension and server
+2. Update placeholder links `[YOUR_USERNAME]` in:
+   - `STORE_DESCRIPTION.md`
+   - `PRIVACY_POLICY.md`
+
+See `SETUP_GITHUB_LINKS.md` for detailed instructions.
+
+Chrome Web Store requires a privacy policy URL and benefits from having public source code links.
+
+## Step 3: Prepare Your Submission
 
 All required files are ready in this repository:
 
@@ -39,7 +52,7 @@ All required files are ready in this repository:
 - [x] icon48.png
 - [x] icon128.png
 
-## Step 3: Fill Out the Store Listing
+## Step 4: Fill Out the Store Listing
 
 ### Product Details
 
@@ -112,10 +125,13 @@ Does this extension collect user data?
 - **No** ❌
 
 **Privacy Policy:**
-Upload the URL where you host `PRIVACY_POLICY.md` (GitHub, your website, etc.)
-Or paste the content directly if allowed.
+Use your GitHub raw URL after pushing to repository:
+```
+https://raw.githubusercontent.com/YOUR_USERNAME/lan-jukebox-extension/main/PRIVACY_POLICY.md
+```
+Or host on your own website.
 
-## Step 4: Distribution
+## Step 5: Distribution
 
 **Visibility:**
 - [x] Public (recommended for open source)
@@ -128,7 +144,7 @@ Or paste the content directly if allowed.
 **Pricing:**
 - Free
 
-## Step 5: Upload the Extension
+## Step 6: Upload the Extension
 
 1. Click "New Item" in the Developer Dashboard
 2. Upload `lan-jukebox-extension.zip`
@@ -136,7 +152,7 @@ Or paste the content directly if allowed.
 4. Upload all screenshots and promotional images
 5. Submit for review
 
-## Step 6: Review Process
+## Step 7: Review Process
 
 - **Review time:** Typically 1-3 business days (sometimes faster)
 - **Status:** Check your Developer Dashboard
@@ -154,7 +170,7 @@ Or paste the content directly if allowed.
 - Low-quality screenshots
 - Misleading description
 
-## Step 7: After Approval
+## Step 8: After Approval
 
 Once approved:
 - Your extension will be live on Chrome Web Store
