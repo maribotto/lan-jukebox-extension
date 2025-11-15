@@ -5,7 +5,8 @@
   "description": "Add YouTube videos directly to your LAN Jukebox playlist",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "notifications"
   ],
   "host_permissions": [
     "http://*/*",
@@ -33,5 +34,16 @@
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "add-to-playlist": {
+      "suggested_key": {
+        "default": "Alt+Shift+E"
+      },
+      "description": "Add current YouTube video to playlist"
+    }
   }
 }

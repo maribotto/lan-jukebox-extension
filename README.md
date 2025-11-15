@@ -25,6 +25,7 @@ Chrome/Brave extension for adding YouTube videos directly to your LAN Jukebox pl
 ## Features
 
 - Add YouTube videos to the jukebox with one click
+- **Keyboard shortcut: Alt+Shift+E** to quickly add videos
 - Supports authentication (if jukebox requires login)
 - Automatically saves server settings
 - Shows video information before adding
@@ -52,11 +53,20 @@ Chrome/Brave extension for adding YouTube videos directly to your LAN Jukebox pl
 
 ## Usage
 
+### Method 1: Using the popup
+
 1. Open a YouTube video you want to add to the jukebox
 2. Click the extension icon
 3. You'll see the video information in the popup window
 4. Click **Add to Playlist**
 5. The video is added to the jukebox queue!
+
+### Method 2: Using keyboard shortcut
+
+1. Open a YouTube video you want to add to the jukebox
+2. Press **Alt+Shift+E**
+3. A notification will appear confirming the video was added
+4. The video is added to the jukebox queue!
 
 ## File Structure
 
@@ -65,6 +75,7 @@ lan-jukebox-extension/
 ├── manifest.json          # Extension manifest file
 ├── popup.html            # Popup UI
 ├── popup.js              # Popup logic
+├── background.js         # Background service worker (handles keyboard shortcuts)
 ├── content.js            # Content script (for future use)
 ├── icons/                # Extension icons
 │   ├── icon16.png
@@ -127,7 +138,6 @@ All publishing materials are ready:
 
 - [ ] Add "Add to Jukebox" button directly on YouTube page
 - [ ] Support adding entire playlists at once
-- [ ] Keyboard shortcuts for adding videos
 - [ ] Display queue status in popup window
 - [ ] Support for multiple jukebox servers
 
