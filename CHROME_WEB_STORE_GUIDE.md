@@ -127,7 +127,7 @@ Does this extension collect user data?
 **Privacy Policy:**
 Use your GitHub raw URL after pushing to repository:
 ```
-https://raw.githubusercontent.com/YOUR_USERNAME/lan-jukebox-extension/main/PRIVACY_POLICY.md
+https://raw.githubusercontent.com/maribotto/lan-jukebox-extension/main/PRIVACY_POLICY.md
 ```
 Or host on your own website.
 
