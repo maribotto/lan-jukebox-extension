@@ -99,22 +99,14 @@ Copy the content from `STORE_DESCRIPTION.md`
 This extension allows users to add YouTube videos to their self-hosted LAN Jukebox server with one click.
 ```
 
-**Permission Justification:**
+**Permission Justifications:**
 
-**activeTab:**
-```
-Required to detect when the user is on a YouTube page and to read the current video URL and title.
-```
+See `PERMISSION_JUSTIFICATIONS.md` for detailed justifications to copy into the submission form.
 
-**storage:**
-```
-Required to save the user's jukebox server address and authentication credentials (if configured) for persistent use across browser sessions.
-```
-
-**host_permissions (http://*/* and https://*/* ):**
-```
-Required to communicate with the user's self-hosted jukebox server, which can be at any IP address on their local network.
-```
+Quick summary:
+- **activeTab:** Read YouTube video URL and title
+- **storage:** Save user's server settings locally
+- **host_permissions:** Connect to user's self-hosted jukebox server at any IP/domain
 
 **Remote Code:**
 - No ❌
