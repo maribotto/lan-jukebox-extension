@@ -2,6 +2,26 @@
 
 Chrome/Brave extension for adding YouTube videos directly to your LAN Jukebox playlist.
 
+## Screenshots
+
+<p align="center">
+  <img src="store-assets/screenshots/screenshot-1.png" alt="Main popup interface" width="800">
+  <br>
+  <em>Main popup - Add videos with one click</em>
+</p>
+
+<p align="center">
+  <img src="store-assets/screenshots/screenshot-2.png" alt="Success state" width="800">
+  <br>
+  <em>Success confirmation</em>
+</p>
+
+<p align="center">
+  <img src="store-assets/screenshots/screenshot-3.png" alt="Authentication" width="800">
+  <br>
+  <em>Optional authentication support</em>
+</p>
+
 ## Features
 
 - Add YouTube videos to the jukebox with one click
