@@ -78,6 +78,31 @@ lan-jukebox-extension/
 
 - Click the extensions icon (puzzle piece) and pin "LAN Jukebox" to the toolbar
 
+## Chrome Web Store Publishing
+
+Ready to publish to Chrome Web Store! See [CHROME_WEB_STORE_GUIDE.md](CHROME_WEB_STORE_GUIDE.md) for complete instructions.
+
+**Quick links:**
+- [Privacy Policy](PRIVACY_POLICY.md)
+- [Store Description](STORE_DESCRIPTION.md)
+- [Publishing Guide](CHROME_WEB_STORE_GUIDE.md)
+- [Store Assets](store-assets/)
+
+All required assets (screenshots, promotional tiles, etc.) are ready in the `store-assets/` directory.
+
+## Distribution
+
+### For End Users
+Download `lan-jukebox-extension.zip` and install as unpacked extension (see Installation above).
+
+### For Chrome Web Store
+All publishing materials are ready:
+- Extension package (.zip)
+- 3 screenshots (1280x800)
+- Promotional tiles (440x280 and 1400x560)
+- Privacy policy
+- Detailed description
+
 ## Future Ideas
 
 - [ ] Add "Add to Jukebox" button directly on YouTube page
@@ -85,6 +110,10 @@ lan-jukebox-extension/
 - [ ] Keyboard shortcuts for adding videos
 - [ ] Display queue status in popup window
 - [ ] Support for multiple jukebox servers
+
+## Privacy
+
+This extension does NOT collect any user data. All settings are stored locally on your device. See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 
 ## License
 
