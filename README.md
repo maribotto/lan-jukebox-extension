@@ -135,6 +135,11 @@ All publishing materials are ready:
 
 This extension does NOT collect any user data. All settings are stored locally on your device. See [PRIVACY_POLICY.md](PRIVACY_POLICY.md) for details.
 
+## Related Projects
+
+- [LAN Jukebox Server](https://github.com/maribotto/lan-jukebox) - The server component
+- [Firefox Extension](https://github.com/maribotto/lan-jukebox-extension-firefox) - Firefox version
+
 ## License
 
 ISC
